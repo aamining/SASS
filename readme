@@ -1,0 +1,26 @@
+SASS
+
+How to create scss file, compile and link to css file (step by step):
+
+1. Create a simple HTML page from scratch.
+
+2. Install the sass gem.
+
+3. Create a `scss` directory and a `default.scss` file within.
+
+4. Write some basic SASS code into the `default.scss` file.
+
+5. Create a `css` directory for the SASS output.
+
+6. Compile the `scss/default.scss` file into `css/default.css`
+
+        $ sass scss/default.scss css/default.css
+
+7. Link the `css/default.css` file to the HTML page.
+
+8. View the HTML page in the browser.
+
+Extensions:
+----------
+Experiment with more SASS features eg. variables, mixins, nesting.
+Experiment with output styles eg. compact, compressed. (edited)
